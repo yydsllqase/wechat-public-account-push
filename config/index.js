@@ -24,27 +24,27 @@ export const config = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: false,
+    holidaytts: true,
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: false,
+    birthdayMessage: true,
   },
 
   /** 每日一言 */
@@ -68,7 +68,7 @@ export const config = {
       // 所在省份
       province: "湖南",
       // 所在城市
-      city: "郴州",
+      city: "衡阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
